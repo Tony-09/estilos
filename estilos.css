@@ -1,0 +1,181 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	padding: 0;
+	margin: 0;
+	background: #f4f4f4;
+}
+.contenedor{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+.boton1
+{
+	height: 38px;
+	background: #e8491d;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: fff;
+}
+header
+{
+	background: #24282b;
+	color: #fff;
+	padding-top: 30px;
+	border-bottom: 5px solid #1293d4;
+}
+header a 
+{
+	color:#fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+header li
+{
+	float: left;
+	display: inline;
+	padding:0 20px 0 20px;
+
+}
+header #marca
+{
+	float: left;
+}
+header nav 
+{
+	float: right;
+	margin-top: 30px;
+}
+header .resaltado, header .actual a
+{
+	color: #1293d4;
+	font-weight: bold;
+}
+header a :hover
+{
+	color: #ccc;
+	font-weight: bold;
+}
+#cabecera
+{
+	min-height: 200px;
+	background: url('../imagenes/fondo.jpg') no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	background-size: cover;
+	color: #fff;
+}
+#cabecera h1
+{
+	margin-top: 0;
+	font-size: 55px;
+	margin-bottom: 10px;
+	text-align: center;
+}
+#cabecera p
+{
+	font-size: 20px;
+	text-align: center;
+}
+#boletin
+{
+	padding: 15px;
+	color: #fff;
+	background: #24282b;
+}
+#boletin h1
+{
+	float: left;
+}
+#boletin form
+{
+	float: right;margin-top: 15px;
+}
+#boletin input[type="emai"]
+{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+#cajas
+{
+	margin-top: 0;
+}
+#cajas .caja
+{
+	float: left;
+	text-align: center;
+	width: 33%;
+	padding: 0;
+}
+#cajas .caja img 
+{
+	width: 100px;
+	height: 90px;
+}
+aside#lateral
+{
+	float: right;
+	width: 30%;
+	margin-top: 10px;
+}
+.oscuro
+{
+	padding: 15px;
+	background: #35424a;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+	padding: 15px;
+	background: #086a87;
+	color: #fff;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: justify;
+	float: right; 
+}
+article#main-col
+{
+	float: left;
+	width: 65%
+}
+ul#servicios li
+{
+	list-style-type: none;
+	padding: 20px;
+	border: 1px solid #ccc;
+	margin-bottom: 5px;
+	background: #e6e6e6;
+}
+input, textarea
+{
+	width: 100%;
+	height: 35px;
+	border: 1px solid gray;
+	margin-bottom: #e6e6e6;
+}
+textarea
+{
+	height: 120px;
+}
+img
+{
+	width: 100%;
+}
+footer
+{
+	padding: 20px;
+	margin-top: 20px;
+	color: #fff;
+	background: #555660;
+	text-align: center;
+	clear: both;
+}
